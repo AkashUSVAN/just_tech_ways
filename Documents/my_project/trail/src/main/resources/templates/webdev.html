@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+		
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <head>
+    <title>Web Development Services - XYZ Company</title>
+    <link rel="stylesheet" href="servicepageStyle.css">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+</head>
+<body>
+	
+		<div class="navbar">
+			<a href="/">
+			<img src="logos.png" class="logo">
+			</a>
+			
+			<ul>
+				<li> <a href="/services">Services</a> </li>
+				<li> <a href="/faq">Faq</a> </li>
+				<li> <a href="/contact">Contact us</a> </li>
+				<li> <a href="/career">Join us</a> </li>
+			</ul>
+	</div>
+	<br>
+	
+	
+	
+    <div class="container">
+        <h1>Web Development Services </h1>
+        <p>XYZ Company offers professional web development services tailored to meet your business needs. Our team of experienced developers is dedicated to delivering high-quality, custom solutions that drive your online presence forward.</p>
+        <h2>Our Services Include:</h2>
+        <ul>
+            <li><span class="highlight">Custom Website Development:</span> We create unique, responsive websites that reflect your brand identity and engage your audience.</li>
+            <li><span class="highlight">E-Commerce Solutions:</span> From online stores to payment gateways, we provide comprehensive e-commerce solutions to help you sell products and services online.</li>
+            <li><span class="highlight">Content Management Systems (CMS):</span> We build user-friendly CMS platforms like WordPress, Joomla, and Drupal, empowering you to manage your website content effortlessly.</li>
+            <li><span class="highlight">Web Application Development:</span> We develop powerful web applications using cutting-edge technologies to streamline your business processes and enhance productivity.</li>
+            <li><span class="highlight">Mobile Responsive Design:</span> Our websites are optimized for mobile devices, ensuring a seamless user experience across all screen sizes and devices.</li>
+            <li><span class="highlight">Website Maintenance and Support:</span> We provide ongoing maintenance and support services to keep your website secure, up-to-date, and running smoothly.</li>
+        </ul>
+        <p>Ready to elevate your online presence? Contact us today to discuss your web development needs!</p>
+        <a th:href="@{/contact}" class="cta-button">Contact Us</a>
+    </div>
+</body>
+
+<footer> <div class="footercontainer">
+    <div class="socialicons">
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-youtube"></i></a>
+    </div>
+    
+    <div class="footnav">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/services">Services</a></li>
+			<li><a href="/faq">Faq</a></li>
+			<li><a href="/contact">Contact us</a></li>
+			<li><a href="/career">Career</a></li>
+		</ul>
+	</div>
+    
+
+    
+</div>
+
+    <div class="footerbottom">
+		<p>Copyright &COPY;2024</p>
+		
+	</div>
+</footer>
+        					   <a th:href="@{'https://api.whatsapp.com/send?phone=' + ${phoneNumber}}" class="whatsapp-float" target="_blank">
+        <img src="whatsapp.png" alt="WhatsApp">
+    </a>
+
+
+
+</html>

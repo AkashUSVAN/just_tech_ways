@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+	
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100px; 
+    height: auto;
+    cursor: pointer;
+}
+
+
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+.navbar ul li{
+	
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.navbar ul li a{
+	
+	text-decoration: none;
+	color: #009688;
+	text-transform: uppercase;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	padding: 0 8%;
+}
+
+.container h1{
+	
+	text-align: center;
+	padding-top: 5%;
+	margin-bottom: 60px;
+	font-weight: 600;
+	position: relative;
+	
+	
+}
+
+.container h1 ::after{
+	
+	content: '';
+	background: #009688;
+	width: 100px;
+	height: 5px;
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	transform: translateX(-50%);
+	
+}
+
+
+.row{
+	
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 30px;
+}
+
+
+.services{
+	
+	text-align: center;
+	padding: 25px 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	cursor: pointer;
+	background: transparent;
+	transition: transform 0.5s, background 0.5s;
+	
+}
+
+.services i{
+	font-size: 40px;
+	margin-bottom: 10px;
+	color: #009688;
+	
+}
+
+.services h2{
+	font-weight: 600;
+	margin-bottom: 8px;
+	
+}
+
+.services:hover{
+	background: #009688;
+	color: #fff;
+	transform: scale(1.05);
+	
+}
+.services:hover i{
+	color: #fff;
+}
+
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+a:hover {
+    color: inherit; 
+}
+
+button:hover{
+	border: none;
+}
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px; 
+            z-index: 999; 
+        }
+        .whatsapp-float img {
+            width: 40px; 
+            height: auto; 
+}
+
+footer {
+  background-color: #009688;
+  width: 100%;
+  height: 300px; /* Set a fixed height for the footer */
+}
+
+.footercontainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.socialicons{
+	display: flex;
+	justify-content: center;
+}
+
+.socialicons a{
+	text-decoration: none;
+	padding: 10px;
+	background-color: #fff;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+.socialicons a i{
+	
+	font-size: 2em;
+	color: black;
+	opacity: 0.9;
+}
+.socialicons a:hover{
+	background-color: #111;
+	transition: 0.5s;
+}
+
+.socialicons a i:hover{
+	color: #fff;
+	transition: 0.5s;
+}
+
+.footnav{
+	margin: 30px;
+}
+
+.footnav ul{
+	display: flex;
+	justify-content: center;
+	list-style-type: none ;
+}
+
+.footnav ul li a{
+	color: #fff;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 1.3em;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.footnav ul li a:hover{
+	
+	opacity: 1;
+}
+
+
+.footerbottom{
+	background-color: #009688;
+	padding: 20px;
+	text-align: center;
+	
+	}
+	
+.footerbottom p{
+	color: #fff;
+}
+
+@media(max-width: 700px){
+	.footnav ul{
+		flex-direction: column;
+	}
+	.footnav ul li{
+		width: 100%;
+		text-align: center;
+		margin: 10px;
+		
+	}
+}
+
+button:hover span{
+	
+	width: 100%;
+	
+}
+
+button:hover{
+	border: none;
+}
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px; 
+            z-index: 999; 
+        }
+        .whatsapp-float img {
+            width: 40px; 
+            height: auto; 
+            }

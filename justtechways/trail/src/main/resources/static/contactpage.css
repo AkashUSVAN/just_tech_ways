@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+body {
+    background: rgb(28, 52, 48);
+    font-size: 14px;
+    font-family: "Poppins", sans-serif; /* Apply Poppins font family to the entire body */
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    color: #fff;
+}
+
+.contact-box {
+    background: #fff;
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background: #009688;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.container p {
+    margin-bottom: 40px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+button {
+    background: #009688;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+
+.contact-left h3 {
+    color: #009688;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child {
+    padding-right: 20px;
+}
+
+tr td {
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #009688;
+    width: 100%;
+    height: 300px; /* Set a fixed height for the footer */
+}
+
+.footercontainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; /* Center the icon horizontally */
+    align-items: center; /* Center the icon vertically */
+    width: 35px; /* Set a smaller fixed width for the circle */
+    height: 35px; /* Set a smaller fixed height for the circle */
+}
+
+.socialicons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicons a i:hover {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footnav {
+    margin: 50px;
+}
+
+.footnav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footnav ul li a {
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footnav ul li a:hover {
+    opacity: 1;
+}
+
+.footerbottom {
+    background-color: #009688;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p {
+    color: #fff;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.whatsapp-float img {
+    width: 40px;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 40px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .navbar ul li {
+        margin: 0 5px;
+        position: static;
+        font-size: 10px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    .container {
+        flex: 1;
+    }
+
+    .footnav {
+        margin: -3px auto; /* Set top and bottom margin to -5px and left and right margin to auto */
+        line-height: 25%;
+        font-size: 10px;
+        margin-left: -20px; /* Adjust the left margin as needed */
+    }
+
+    .footnav ul {
+        flex-direction: column;
+    }
+
+    .footnav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0; /* Adjust margin as needed */
+    }
+
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        background-color: #009688;
+        width: 122%;
+        margin: 0; /* Ensure no margin */
+        padding: 0; /* Ensure no padding */
+    }
+}

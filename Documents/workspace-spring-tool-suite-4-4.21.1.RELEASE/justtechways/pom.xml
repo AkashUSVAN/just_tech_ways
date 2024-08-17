@@ -12,7 +12,7 @@
 	<artifactId>trail</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	
 	<name>trail</name>
 	<description>Demo project for Spring Boot</description>
@@ -29,15 +29,12 @@
 
 
 
+
 		
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-mail</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
